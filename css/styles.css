@@ -102,7 +102,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:active {
-  color: var(--accent-color);
+  color: var(--logo-header-color);
 }
 
 .hero-btn {
@@ -115,9 +115,10 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--first-button-color);
+  cursor: pointer;
 }
 .hero-btn {
-  background-color: var(--second-text-color);
+  background-color: var(--accent-color);
 }
 /* -------------------Особенности (peculiarities)------------------- */
 
@@ -192,6 +193,8 @@ body {
 }
 
 .footer-map {
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -217,5 +220,56 @@ body {
 
 .footer-map:hover,
 .footer-map:active {
+  color: var(--accent-color);
+}
+
+/* -----------------PORTFOLIO FILTR BUTTONS----------------- */
+
+.filtr-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-button-color);
+  cursor: pointer;
+}
+
+.filtr-btn:hover,
+.filtr-btn:focus {
+  color: var(--first-button-color);
+  background-color: var(--accent-color);
+}
+
+/* ---------------PORTFOLIO PROJECTS----------------- */
+
+.projects-link:hover,
+.projects-link:focus {
+  color: var(--accent-color);
+}
+
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+}
+
+.projects-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--first-text-color);
+}
+
+.projects-title:hover,
+.projects-title:focus {
+  color: var(--accent-color);
+}
+
+.projects-text:hover,
+.projects-text:focus {
   color: var(--accent-color);
 }
